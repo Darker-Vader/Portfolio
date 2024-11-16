@@ -1,100 +1,29 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>My Portfolio</title>
-		<link rel="stylesheet" href="index.css">
-	</head>
-	<body>
-		<header>
-			<h3>DARK-VADER</h3>
-			<nav id="nav">
-				<ul>
-					<li><a class="active" href="">Home</a></li>
-					<li><a href="">About</a></li>
-					<li><a href="">Skills</a></li>
-					<li><a href="">Projects</a></li>
-					<li><a href="">Contact</a></li>
-				</ul>
-			</nav>
-		</header>
-		<div class="main">
-			<div id="hero">
-				<h6>HELLO!</h6>
-				<h1><span>I'm</span> Ibegbu Emmanuel</h1>
-				<h3>Front-end Web Developer</h3>
-				<a class="left-btn" href=""><button>HIRE ME</button></a>
-				<a class="right-btn" href=""><button>MY WORKS</button></a>
-			</div>
-			<img src="/Assets/Images/Asset 2.png" alt="profile pic">
-		</div>
-		<div class="about">
-			<h3><span>About me</span></h3>
-			<p>
-				Hello! I'm <strong>Emmanuel Ibegbu,</strong> a passionate
-				<strong>Web Developer</strong> with a knack for creating
-				beautiful, functional, and user-friendly websites. 
-				With over <strong>2 years of experience</strong> in 
-				front-end development, I specialize in bringing ideas
-				to life through writing code.
-			</p>
-			<p>
-				My journey started with a liking for technology and design,
-				which led me to learn languages like <strong>HTML, CSS, Javascript, and python.</strong>
-				Today, I enjoy working with frameworks such as <strong>React</strong>
-				and <strong>Nide.js,</strong> crafting seamless experiences
-				for users worldwide.
-			</p>
-			<a href=""><button>DOWNLOAD CV</button></a>
-		</div>
-		<div class="skill">
-			<h3><span>Skills</span></h3>
-			<img src="/Assets/Images/skill1.png" alt="html">
-			<img src="/Assets/Images/skill2.png" alt="css">
-			<img src="/Assets/Images/skill3.png" alt="js">
-			<img src="/Assets/Images/skill5.png" alt="python">
-			<img src="/Assets/Images/skill4.png" alt="git">
-		</div>
-		<div class="project">
-			<h3><span>Projects</span></h3>
-			<img src="/Assets/Images/proj1.png" alt="project 1">
-			<img src="/Assets/Images/proj2.png" alt="project 2">
-			<img src="/Assets/Images/proj3.png" alt="project 3">
-			<div class="page">
-				<a href=""><svg class="active" xmlns="http://www.w3.org/2000/svg" height="6px" viewBox="0 0 162.5 162.5" width="6px" fill="#fefefe"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><circle class="cls-1" cx="81.25" cy="81.25" r="81.25"/></g></g></svg></a>
-				<a href=""><svg xmlns="http://www.w3.org/2000/svg" height="6px" viewBox="0 0 162.5 162.5" width="6px" fill="#fefefe"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><circle class="cls-1" cx="81.25" cy="81.25" r="81.25"/></g></g></svg></a>
-				<a href=""><svg xmlns="http://www.w3.org/2000/svg" height="6px" viewBox="0 0 162.5 162.5" width="6px" fill="#fefefe"><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><circle class="cls-1" cx="81.25" cy="81.25" r="81.25"/></g></g></svg></a>
-			</div>
-		</div>
-		<div class="contact">
-			<h3><span>Contacts</span></h3>
-			<div class="contact-info">
-				<div class="contact-item">
-					<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#faba47"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg>
-					<p>E-mail</p>
-					<a href="mailto:chibems8@gmail.com">
-						chibems8@gmail.com
-					</a>
-				</div>
-				<div class="contact-item telephone-no">
-					<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#faba47"><path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/></svg>
-					<p>Telephone number</p>
-					<a href="tel:+2347042069043">
-						+2347042069043
-					</a>
-					<a href="tel:+2349054303827">
-						+2349054303827
-					</a>
-				</div>
-				<div class="contact-item social-icons">
-					<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#faba47"><path d="M680-80q-50 0-85-35t-35-85q0-6 3-28L282-392q-16 15-37 23.5t-45 8.5q-50 0-85-35t-35-85q0-50 35-85t85-35q24 0 45 8.5t37 23.5l281-164q-2-7-2.5-13.5T560-760q0-50 35-85t85-35q50 0 85 35t35 85q0 50-35 85t-85 35q-24 0-45-8.5T598-672L317-508q2 7 2.5 13.5t.5 14.5q0 8-.5 14.5T317-452l281 164q16-15 37-23.5t45-8.5q50 0 85 35t35 85q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T720-200q0-17-11.5-28.5T680-240q-17 0-28.5 11.5T640-200q0 17 11.5 28.5T680-160ZM200-440q17 0 28.5-11.5T240-480q0-17-11.5-28.5T200-520q-17 0-28.5 11.5T160-480q0 17 11.5 28.5T200-440Zm480-280q17 0 28.5-11.5T720-760q0-17-11.5-28.5T680-800q-17 0-28.5 11.5T640-760q0 17 11.5 28.5T680-720Zm0 520ZM200-480Zm480-280Z"/></svg>
-					<p>Social media</p>
-					<a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="24px" fill="#faba47"><path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,72a24,24,0,1,1,24-24A24,24,0,0,1,128,152ZM176,20H80A60.07,60.07,0,0,0,20,80v96a60.07,60.07,0,0,0,60,60h96a60.07,60.07,0,0,0,60-60V80A60.07,60.07,0,0,0,176,20Zm36,156a36,36,0,0,1-36,36H80a36,36,0,0,1-36-36V80A36,36,0,0,1,80,44h96a36,36,0,0,1,36,36ZM196,76a16,16,0,1,1-16-16A16,16,0,0,1,196,76Z"/></svg></a>
-					<a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="24px" fill="#faba47"><path d="M216,20H40A20,20,0,0,0,20,40V216a20,20,0,0,0,20,20H216a20,20,0,0,0,20-20V40A20,20,0,0,0,216,20Zm-4,192H44V44H212ZM112,176V120a12,12,0,0,1,21.43-7.41A40,40,0,0,1,192,148v28a12,12,0,0,1-24,0V148a16,16,0,0,0-32,0v28a12,12,0,0,1-24,0ZM96,120v56a12,12,0,0,1-24,0V120a12,12,0,0,1,24,0ZM68,80A16,16,0,1,1,84,96,16,16,0,0,1,68,80Z"/></svg></a>
-				</div>
-			</div>
-		</div>
-		<footer>
-			<p>Copyright&copy;2024 <span>DARK-VADER</span></p>
-		</footer>
-	</body>
-</html>
+DARK-VADER
+Home About Skills Projects Contact
+HELLO!
+I'm Ibegbu Emmanuel
+Front-end Web Developer
+HIRE ME MY WORKS
+profile pic
+About me
+Hello! I'm Emmanuel Ibegbu, a passionate Web Developer with a knack for creating beautiful, functional, and user-friendly websites. With over 2 years of experience in front-end development, I specialize in bringing ideas to life through writing code.
+
+My journey started with a liking for technology and design, which led me to learn languages like HTML, CSS, Javascript, and python. Today, I enjoy working with frameworks such as React and Nide.js, crafting seamless experiences for users worldwide.
+
+DOWNLOAD CV
+Skills
+html css js python git
+Projects
+project 1 project 2 project 3
+  
+Contacts
+E-mail
+
+chibems8@gmail.com
+Telephone number
+
++2347042069043 +2349054303827
+Social media
+
+ 
+Copyright©2024 DARK-VADER
