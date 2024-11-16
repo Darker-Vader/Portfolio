@@ -134,15 +134,9 @@ header h3 {
 
 .main img {
 	width: 400px;
-	height: 400px;
+	height: auto;
 }
 
-@media (max-width: 480px) {
-	body* {
-		font-size: smaller;
-		width: 100%;
-	}
-}
 
 .about {
 	background: #000202;
@@ -202,7 +196,7 @@ header h3 {
 
 .skill img {
 	width: 100px;
-	height: 100px;
+	height: auto;
 	margin-left: 20px;
 	margin-right: 20px;
 }
@@ -222,6 +216,7 @@ header h3 {
 
 .project img {
 	width: 400px;
+	height: auto;
 	margin: 10px 20px;
 	box-shadow: 1px 5px 10px #3b3b3b;
 }
@@ -330,4 +325,27 @@ footer p {
 
 footer span {
 	color: #faba47;
+}
+
+@media (max-width: 768px) {
+	header {
+	    flex-direction: column;
+	}
+    
+	nav ul {
+	    flex-direction: column;
+	    align-items: center;
+	}
+    
+	nav ul li {
+	    margin: 5px 0;
+	}
+}
+
+    
+@media (max-width: 480px) {
+	.main img {
+	    width: 100%; /* Make images responsive */
+	    height: auto;
+	}
 }
