@@ -72,10 +72,10 @@ header h3 {
 
 .main {
 	background: #0e0e0e;
-	padding: 60px;
+	padding: 100px;
 	font-family: open-sans;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 }
 
 #hero h6 {
@@ -90,7 +90,7 @@ header h3 {
 #hero h1 {
 	color: #faba47;
 	font-size: 80px;
-	line-height: 90%;
+	line-height: 80%;
 }
 
 #hero h3 {
@@ -133,8 +133,8 @@ header h3 {
 }
 
 .main img {
-	width: 400px;
-	height: auto;
+	width: 500px;
+	height: 500px;
 }
 
 
@@ -274,8 +274,9 @@ header h3 {
 
 .contact-info {
 	display: flex;
-	justify-content: space-around;
-	margin-top: 20px;
+	justify-content: space-evenly;
+	padding: 20px;
+	
 }
 
 .contact-item {
@@ -334,18 +335,33 @@ footer span {
     
 	nav ul {
 	    flex-direction: column;
-	    align-items: center;
 	}
     
 	nav ul li {
 	    margin: 5px 0;
 	}
-}
 
-    
-@media (max-width: 480px) {
+	.main{
+		padding: 80px;
+		display: block;
+		text-align: center;
+	}
+
 	.main img {
-	    width: 100%; /* Make images responsive */
-	    height: auto;
+		width: 250px;
+		height: 250px;
+	}
+
+	#hero h1 {
+		font-size: 42px;
+	}
+
+	#hero h3 {
+		font-size: 22px;
+		margin-bottom: 40px;
+	}
+
+	#hero h6 {
+		font-size: 16px;
 	}
 }
