@@ -113,6 +113,7 @@ header h3 {
 }
 
 #hero .left-btn button:hover {
+	scale: 1.05;
 	box-shadow: 0px 0px 2px #faba47;
 }
 
@@ -129,12 +130,14 @@ header h3 {
 }
 
 #hero .right-btn button:hover {
+	scale: 1.05;
 	box-shadow: 0px 0px 2px #fefefe;
 }
 
 .main img {
 	width: 500px;
 	height: 500px;
+	margin: auto;
 }
 
 
@@ -174,6 +177,7 @@ header h3 {
 }
 
 .about button:hover {
+	scale: 1.05;
 	box-shadow: 0px 0px 2px #faba47;
 }
 
@@ -363,5 +367,35 @@ footer span {
 
 	#hero h6 {
 		font-size: 16px;
+	}
+}
+
+@media (max-width: 1125px) {
+	.main {
+		height: 600px;
+		padding: 80px;
+	}
+
+	.main img {
+		width: 250px;
+		height: 250px;
+		margin: auto;
+	}
+
+	#hero {
+		margin: auto;
+	}
+
+	#hero h6 {
+		font-size: 16px;
+	}
+
+	#hero h1 {
+		font-size: 43px;
+	}
+
+	#hero h3 {
+		font-size: 23px;
+		margin-bottom: 40px;
 	}
 }
